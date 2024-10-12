@@ -5,7 +5,7 @@ function App() {
     <div className="App">
     <div  style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly",
     position: "sticky", top: "0", zindex: "1000", height: "5rem", backgroundColor: "blue"}}>
-      <div>nav bar</div>          
+      <div>Greetings From me Hello</div>          
       </div>
 
     <div style={{flexGrow: "1", overflowY: "auto", padding: "40px", scrollbarWidth: "none", justifyContent: "space-between",
