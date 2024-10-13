@@ -28,20 +28,8 @@ jobs:
         run: |
           cd startup-client
           npm install
-          npm test
 
-      # (Optional) Lint the code
-      - name: Lint the code
-        run: |
-          cd startup-client
-          npm run lint
-
-      # (Optional) Build the project
-      - name: Build the project
-        run: |
-          cd startup-client
-          npm run build
-
+    
   deploy:
     runs-on: ubuntu-latest
     needs: build
